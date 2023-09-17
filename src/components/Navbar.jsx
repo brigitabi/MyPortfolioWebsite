@@ -40,6 +40,8 @@ const Navbar = () => {
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://www.linkedin.com/in/brigita-bizjak-9472794b/'
+              target='_blank'
+              rel='noopener noreferrer'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
