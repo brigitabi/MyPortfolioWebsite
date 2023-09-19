@@ -1,5 +1,9 @@
-import Bled from '../assets/projects/bled.jpeg'
-import Astro from '../assets/projects/astro.jpeg'
+import Bled from '../assets/projects/bled.jpeg';
+// import Astro from '../assets/projects/astro.jpeg';
+import Nature from '../assets/projects/nature.jpeg';
+import Goals from '../assets/projects/goals.webp';
+
+
 export const data=[
     {
         id:1,
@@ -8,27 +12,27 @@ export const data=[
         github:"https://github.com/brigitabi/SlovenianDelightsBACKEND",
         live:"",
     },
+    // {
+    //     id:2,
+    //     name:"Notes",
+    //     image:Astro,
+    //     github:"Lawork",
+    //     live:"",
+    // },
     {
-        id:2,
-        name:"Astronomy Pics of the Day",
-        image:Astro,
-        github:"Lawork",
-        live:"",
+        id:3,
+        name:"Beautiful Image Slider",
+        image:Nature,
+        github:"https://github.com/brigitabi/slider",
+        live:"https://slider-flame.vercel.app",
     },
-    // {
-    //     id:3,
-    //     name:"React JS Application",
-    //     image:WorkIm,
-    //     github:"",
-    //     live:"",
-    // },
-    // {
-    //     id:4,
-    //     name:"React JS Application",
-    //     image:RealEst,
-    //     github:"",
-    //     live:"",
-    // },
+    {
+        id:4,
+        name:"Notes",
+        image: Goals,
+        github:"https://github.com/brigitabi/toDoGoals",
+        live:"https://to-do-goals-sjn7-frontend-brigitabi.vercel.app",
+    },
 
 
 ]
