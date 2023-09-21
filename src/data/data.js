@@ -2,15 +2,15 @@ import Bled from '../assets/projects/bled.jpeg';
 // import Astro from '../assets/projects/astro.jpeg';
 import Nature from '../assets/projects/nature.jpeg';
 import Goals from '../assets/projects/goals.webp';
-
+import Netflix from '../assets/projects/netflix.jpg';
 
 export const data=[
     {
         id:1,
-        name:"Slovenian Delights",
-        image:Bled,
-        github:"https://github.com/brigitabi/SlovenianDelightsBACKEND",
-        live:"",
+        name:"Netflix Clone",
+        image:Netflix,
+        github:"https://github.com/brigitabi/NetflixClone",
+        live:"https://netflix-clone-bribi.web.app/",
     },
     // {
     //     id:2,
