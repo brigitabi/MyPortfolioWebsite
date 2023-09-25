@@ -3,6 +3,7 @@ import Bled from '../assets/projects/bled.jpeg';
 import Nature from '../assets/projects/nature.jpeg';
 import Goals from '../assets/projects/goals.webp';
 import Netflix from '../assets/projects/netflix.jpg';
+import Crypto from '../assets/projects/crypto.jpg';
 
 export const data=[
     {
@@ -12,13 +13,13 @@ export const data=[
         github:"https://github.com/brigitabi/NetflixClone",
         live:"https://netflix-clone-bribi.web.app/",
     },
-    // {
-    //     id:2,
-    //     name:"Notes",
-    //     image:Astro,
-    //     github:"Lawork",
-    //     live:"",
-    // },
+    {
+        id:2,
+        name:"CoinNest",
+        image: Crypto,
+        github:"Lawork",
+        live:"https://cryptoexchange-2e20a.web.app/",
+    },
     {
         id:3,
         name:"Beautiful Image Slider",
