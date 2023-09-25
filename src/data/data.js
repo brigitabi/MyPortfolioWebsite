@@ -3,7 +3,7 @@ import Bled from '../assets/projects/bled.jpeg';
 import Nature from '../assets/projects/nature.jpeg';
 import Goals from '../assets/projects/goals.webp';
 import Netflix from '../assets/projects/netflix.jpg';
-import Crypto from '../assets/projects/crypto.jpg';
+import Crypto from '../assets/projects/crypto.jpeg';
 
 export const data=[
     {
