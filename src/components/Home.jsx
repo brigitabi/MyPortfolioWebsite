@@ -2,12 +2,10 @@ import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import profile from '../assets/profile.jpeg';
 import { Link } from 'react-scroll';
-import natureVideo from '../assets/natureVideo.mp4';
 
 const Home = () => {
   return (
     <div name='home' className='w-full h-screen bg-white' >
-        <video className='bg-auto z-10' src={natureVideo} autoPlay loop muted />
         <div className="max-w-[1000px] mx-auto px-10 flex flex-col justify-center h-full">          
             <p className='text-black'>Hi there, my name is</p>
             <h1 className='text-6xl sa:text-4xl font-bold text-[black] inline border-b-4 border-blue-800 w-1/2'>Brigita Bizjak</h1>
