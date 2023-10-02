@@ -4,6 +4,7 @@ import Nature from '../assets/projects/nature.jpeg';
 import Goals from '../assets/projects/goals.webp';
 import Netflix from '../assets/projects/netflix.jpg';
 import Crypto from '../assets/projects/crypto.jpeg';
+import GB2 from '../assets/projects/GB2.png';
 
 export const data=[
     {
@@ -29,6 +30,13 @@ export const data=[
     },
     {
         id:4,
+        name:"Global Beats",
+        image:GB2,
+        github:"https://github.com/brigitabi/globalBeats",
+        // "live:"https://slider-flame.vercel.app","
+    },
+    {
+        id:5,
         name:"Notes",
         image: Goals,
         github:"https://github.com/brigitabi/toDoGoals",
