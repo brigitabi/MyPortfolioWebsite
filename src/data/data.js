@@ -5,6 +5,7 @@ import Goals from '../assets/projects/goals.webp';
 import Netflix from '../assets/projects/netflix.jpg';
 import Crypto from '../assets/projects/crypto.jpeg';
 import GB2 from '../assets/projects/GB2.png';
+import Ramen from '../assets/projects/ramen.jpg';
 
 export const data=[
     {
@@ -23,20 +24,27 @@ export const data=[
     },
     {
         id:3,
+        name:"We Eat",
+        image: Ramen,
+        github:"https://github.com/brigitabi/weEat",
+        live:"https://we-eat-gamma.vercel.app/",
+    },
+    {
+        id:4,
         name:"Beautiful Image Slider",
         image:Nature,
         github:"https://github.com/brigitabi/slider",
         live:"https://slider-flame.vercel.app",
     },
     {
-        id:4,
+        id:5,
         name:"Global Beats",
         image:GB2,
         github:"https://github.com/brigitabi/globalBeats",
         // "live:"https://slider-flame.vercel.app","
     },
     {
-        id:5,
+        id:6,
         name:"Notes",
         image: Goals,
         github:"https://github.com/brigitabi/toDoGoals",
