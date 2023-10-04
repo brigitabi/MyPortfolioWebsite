@@ -41,7 +41,7 @@ export const data=[
         name:"Global Beats",
         image:GB2,
         github:"https://github.com/brigitabi/globalBeats",
-        // "live:"https://slider-flame.vercel.app","
+        live:"https://global-beats.vercel.app/",
     },
     {
         id:6,
