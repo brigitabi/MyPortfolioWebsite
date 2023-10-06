@@ -34,7 +34,7 @@ export const data=[
         id:4,
         name:"Expense Tracker",
         image: Costs,
-        github:"",
+        github:"https://github.com/brigitabi/expenseTrack",
         live:"https://expense-track-ecru.vercel.app/",
     },
     {
