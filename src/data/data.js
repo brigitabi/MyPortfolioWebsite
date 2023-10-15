@@ -8,6 +8,7 @@ import GB2 from '../assets/projects/GB2.png';
 import Ramen from '../assets/projects/ramen.jpg';
 import Costs from '../assets/projects/costs.png';
 import Trello from '../assets/projects/trello.png';
+import Hireadmire from '../assets/projects/hireadmire.png';
 
 export const data=[
     {
@@ -19,48 +20,55 @@ export const data=[
     },
     {
         id:2,
+        name:"Hire & Admire",
+        image:Hireadmire,
+        github:"https://github.com/brigitabi/H-A",
+        live:"https://h-a.vercel.app",
+    },
+    {
+        id:3,
         name:"Netflix Clone",
         image:Netflix,
         github:"https://github.com/brigitabi/NetflixClone",
         live:"https://netflix-clone-bribi.web.app/",
     },
     {
-        id:3,
+        id:4,
         name:"CoinNest",
         image: Crypto,
         github:"Lawork",
         live:"https://cryptoexchange-2e20a.web.app/",
     },
     {
-        id:4,
+        id:5,
         name:"Global Beats",
         image:GB2,
         github:"https://github.com/brigitabi/globalBeats",
         live:"https://global-beats.vercel.app/",
     },
     {
-        id:5,
+        id:6,
         name:"Expense Tracker",
         image: Costs,
         github:"https://github.com/brigitabi/expenseTrack",
         live:"https://expense-track-ecru.vercel.app/",
     },
     {
-        id:6,
+        id:7,
         name:"We Eat",
         image: Ramen,
         github:"https://github.com/brigitabi/weEat",
         live:"https://we-eat-gamma.vercel.app/",
     },
     {
-        id:7,
+        id:8,
         name:"Beautiful Image Slider",
         image:Nature,
         github:"https://github.com/brigitabi/slider",
         live:"https://slider-flame.vercel.app",
     },
     {
-        id:8,
+        id:9,
         name:"Notes",
         image: Goals,
         github:"https://github.com/brigitabi/toDoGoals",
