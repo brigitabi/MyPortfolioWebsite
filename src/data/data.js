@@ -46,7 +46,7 @@ export const data = [
     id: 5,
     name: 'CoinNest',
     image: Crypto,
-    github: 'Lawork',
+    github: 'https://github.com/brigitabi/cryptoExchange',
     live: 'https://cryptoexchange-2e20a.web.app/',
   },
   {
