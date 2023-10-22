@@ -16,7 +16,7 @@ export const data = [
     id: 1,
     name: 'Trello Clone with Chat GPT',
     image: Planning,
-    github: 'https://github.com/brigitabi/NetflixClone',
+    github: 'https://github.com/brigitabi/trelloClone',
     live: 'https://trello-clone-piax.vercel.app',
   },
   {
