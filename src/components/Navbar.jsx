@@ -60,7 +60,7 @@ const Navbar = ({ countFromDb }) => {
       </div>
 
       <div className="flex items-center">
-        <FaEye className="mr-2" /> <span>{countFromDb}</span>
+        <FaEye className="mr-2" size={15}/> <span className='text-xs'>{countFromDb}</span>
       </div>
 
       {/*Social icons */}
