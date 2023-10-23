@@ -11,7 +11,7 @@ const Contact = () => {
             <input className='bg-[white] p-2' type="text" placeholder='Your Name' name='name' />
             <input className='my-4 p-2 bg-[white]' type="email" placeholder='Your Email' name='email' />
             <textarea className='bg-[white] p-3' name="message" rows="10" placeholder='Your Message'></textarea>
-            <button className='text-white border-2 hover:bg-green-600 hover:border-violet-700 px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
+            <button className='text-white border-2 hover:border-blue-950 hover:text-white px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
         </form>
     </div>
   )
