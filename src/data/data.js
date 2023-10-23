@@ -51,11 +51,12 @@ export const data = [
   },
   {
     id: 6,
-    name: 'Global Beats',
-    image: GB2,
-    github: 'https://github.com/brigitabi/globalBeats',
-    live: 'https://global-beats.vercel.app/',
+    name: 'Beautiful Image Slider',
+    image: Nature,
+    github: 'https://github.com/brigitabi/slider',
+    live: 'https://slider-flame.vercel.app',
   },
+
   {
     id: 7,
     name: 'Expense Tracker',
@@ -70,18 +71,19 @@ export const data = [
     github: 'https://github.com/brigitabi/weEat',
     live: 'https://we-eat-gamma.vercel.app/',
   },
+
   {
     id: 9,
-    name: 'Beautiful Image Slider',
-    image: Nature,
-    github: 'https://github.com/brigitabi/slider',
-    live: 'https://slider-flame.vercel.app',
-  },
-  {
-    id: 10,
     name: 'Notes',
     image: Goals,
     github: 'https://github.com/brigitabi/toDoGoals',
     live: 'https://to-do-goals-sjn7-frontend-brigitabi.vercel.app',
   },
+  //   {
+  //     id: 6,
+  //     name: 'Global Beats',
+  //     image: GB2,
+  //     github: 'https://github.com/brigitabi/globalBeats',
+  //     live: 'https://global-beats.vercel.app/',
+  //   },
 ];

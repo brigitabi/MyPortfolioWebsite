@@ -16,16 +16,16 @@ const About = () => {
           <div className="sm:text-right text-4xl font-bold">
             <p>
               Hello, nice to meet you! My name is Brigita and I am happy to see
-              you visiting my website.
+              you visiting my website.👋
             </p>
           </div>
           <div>
             <p>
-              Deep in JavaScript, React, I hone, 
+              Deep in JavaScript, React, I hone, <br></br>
               Crafting software, skills I
-              own. 
-              Enhancing experiences far and wide, 
-              To bring your visions to
+              own. <br />
+              Enhancing experiences far and wide, <br />
+              To bring your visions to <br />
               life, with pride.
             </p>
           </div>
