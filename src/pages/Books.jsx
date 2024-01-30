@@ -26,13 +26,21 @@ const Book = ({ title, description, imageURL, amazonLink }) => {
   );
 };
 
-const Books = ({ }) => {
+const Books = ({}) => {
   return (
     <div id="book" className="py-12 grid gap-3 sm:px-8">
+      <div className='px-4'>
       <p className="text-zinc-400 text-3xl py-12 text-center">
         My favorite books
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 px-8">
+
+      <p className="text-center p-4 text-sm mx-auto hover:scale-105 transition-transform duration-300 ease-in-out transform font-bold shadow-md shadow-slate-200 rounded-md">
+        Here are a few of the books I've explored, spanning various subjects
+        from programming to personal growth, leadership, and beyond. Highly
+        recommend giving them a read! 📚{' '}
+      </p>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 px-8 py-4">
         {myFavoriteBooks.map((book, index) => (
           <Book
             key={index}
