@@ -1,9 +1,9 @@
 import React from 'react';
 import { HiOutlineMail } from 'react-icons/hi';
 import { FaGithub, FaLinkedin, FaEye } from 'react-icons/fa';
-import { Link } from 'react-scroll';
 import { db } from '../firebase';
 import { doc, setDoc } from 'firebase/firestore';
+import { Link } from 'react-router-dom';
 
 const Navbar = ({ countFromDb }) => {
   const [tracked, setTracked] = React.useState(false);
@@ -44,6 +44,16 @@ const Navbar = ({ countFromDb }) => {
               className="py-5 text-1.3xl"
             >
               Portolio
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/books"
+              smooth={true}
+              duration={500}
+              className="py-5 text-1.3xl"
+            >
+              Books
             </Link>
           </li>
           <li>

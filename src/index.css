@@ -28,3 +28,20 @@
         hsla(166, 71%, 36%, 0.8)   
     )!important;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .recommendation {
+    width: calc(25% - 20px); /* Four recommendations per row */
+    margin: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .recommendation {
+      width: calc(100% - 20px); /* One recommendation per row on smaller screens */
+    }
+  }

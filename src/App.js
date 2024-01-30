@@ -1,11 +1,13 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Home from './components/Home';
+import Home from './pages/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import { db } from './firebase';
+import { Route, Routes } from 'react-router-dom';
 import { doc, getDoc } from 'firebase/firestore';
+import Books from './pages/Books';
 
 // import Skills from "./components/Skills";
 
@@ -34,11 +36,13 @@ function App() {
   return (
     <div>
       <Navbar countFromDb={count} />
-      <Home />
-      <About />
-      {/* <Skills /> */}
-      <Portfolio />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/books" element={<Books />} />
+      </Routes>
     </div>
   );
 }

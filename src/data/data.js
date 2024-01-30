@@ -14,20 +14,27 @@ import Wisdomwonder from '../assets/projects/wisdomwonder.png';
 export const data = [
   {
     id: 1,
+    name: 'Hire & Admire',
+    image: "",
+    github: 'https://github.com/brigitabi/trelloClone',
+    live: 'https://trello-clone-piax.vercel.app',
+  },,
+  {
+    id: 2,
     name: 'Trello Clone with Chat GPT',
     image: Planning,
     github: 'https://github.com/brigitabi/trelloClone',
     live: 'https://trello-clone-piax.vercel.app',
   },
   {
-    id: 2,
+    id: 3,
     name: 'Netflix Clone',
     image: Netflix,
     github: 'https://github.com/brigitabi/NetflixClone',
     live: 'https://netflix-clone-bribi.web.app/',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Wisdom Wonder',
     image: Wisdomwonder,
     github: 'https://github.com/brigitabi/wisdom-wonder',
@@ -35,7 +42,7 @@ export const data = [
   },
 
   {
-    id: 4,
+    id: 5,
     name: 'Hire & Admire',
     image: Hireadmire,
     github: 'https://github.com/brigitabi/H-A',
@@ -43,14 +50,14 @@ export const data = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: 'CoinNest',
     image: Crypto,
     github: 'https://github.com/brigitabi/cryptoExchange',
     live: 'https://cryptoexchange-2e20a.web.app/',
   },
   {
-    id: 6,
+    id: 7,
     name: 'Beautiful Image Slider',
     image: Nature,
     github: 'https://github.com/brigitabi/slider',
@@ -58,14 +65,14 @@ export const data = [
   },
 
   {
-    id: 7,
+    id: 8,
     name: 'Expense Tracker',
     image: Costs,
     github: 'https://github.com/brigitabi/expenseTrack',
     live: 'https://expense-track-ecru.vercel.app/',
   },
   {
-    id: 8,
+    id: 9,
     name: 'We Eat',
     image: Ramen,
     github: 'https://github.com/brigitabi/weEat',
@@ -73,7 +80,7 @@ export const data = [
   },
 
   {
-    id: 9,
+    id: 10,
     name: 'Notes',
     image: Goals,
     github: 'https://github.com/brigitabi/toDoGoals',
