@@ -4,9 +4,9 @@ import Nature from '../assets/projects/nature.jpeg';
 import Goals from '../assets/projects/goals.webp';
 import Netflix from '../assets/projects/netflix.jpg';
 import Crypto from '../assets/projects/crypto.jpeg';
-import GB2 from '../assets/projects/GB2.png';
 import Ramen from '../assets/projects/ramen.jpg';
 import Costs from '../assets/projects/costs.png';
+import hireadmire2 from '../assets/projects/hireadmire2.png';
 import Planning from '../assets/projects/planning.png';
 import Hireadmire from '../assets/projects/hireadmire.png';
 import Wisdomwonder from '../assets/projects/wisdomwonder.png';
@@ -15,9 +15,9 @@ export const data = [
   {
     id: 1,
     name: 'Hire & Admire',
-    image: "",
-    github: 'https://github.com/brigitabi/trelloClone',
-    live: 'https://trello-clone-piax.vercel.app',
+    image: hireadmire2,
+    github: '',
+    live: 'https://hire-admire-prototype.vercel.app',
   },,
   {
     id: 2,
