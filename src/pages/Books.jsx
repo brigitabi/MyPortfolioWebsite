@@ -31,7 +31,7 @@ const Books = ({}) => {
     <div id="book" className="py-12 grid gap-3 sm:px-8">
       <div className='px-8 py-8'>
       <p className="text-blue-950 text-3xl py-12 text-center">
-        My favorite books
+        Book recommendations
       </p>
 
       <p className="text-center p-4 mx-auto transition-transform duration-300 ease-in-out transform font-bold shadow-md hover:scale-105 shadow-slate-400 rounded-md">
