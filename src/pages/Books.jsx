@@ -3,7 +3,7 @@ import myFavoriteBooks from '../components/FavoriteBooks';
 
 const Book = ({ title, description, imageURL, amazonLink }) => {
   return (
-    <div className="border border-grey-200 rounded-lg p-4 flex flex-col items-center shadow shadow-slate-400 transition-transform duration-300 ease-in-out transform hover:cursor-pointer hover:scale-105">
+    <div name="books" className="border border-grey-200 rounded-lg p-4 flex flex-col items-center shadow  shadow-slate-400 transition-transform duration-300 ease-in-out transform hover:cursor-pointer hover:scale-105">
       <div className="flex flex-row items-center space-x-4">
         <img
           src={imageURL}

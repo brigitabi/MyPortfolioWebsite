@@ -1,12 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { HiOutlineMail } from 'react-icons/hi';
 import { FaGithub, FaLinkedin, FaEye } from 'react-icons/fa';
 import { db } from '../firebase';
 import { doc, setDoc } from 'firebase/firestore';
 import { Link } from 'react-router-dom';
+import { IoMdMenu } from "react-icons/io";
+
 
 const Navbar = ({ countFromDb }) => {
   const [tracked, setTracked] = React.useState(false);
+  const [showMenu, setShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
+
+  const handleLinkClick = () => {
+    setShowMenu(false);
+  };
 
   React.useEffect(() => {
     const updateCounter = async () => {
@@ -24,14 +35,17 @@ const Navbar = ({ countFromDb }) => {
 
   return (
     <div className="fixed w-full h-[70px] flex justify-between items-center px-4 bg-[#0a1527] text-white right-0">
-      <div className="flex justify-center items-center w-full">
-        <ul className="flex space-x-6">
+      <IoMdMenu className="lg:hidden" size={30} onClick={toggleMenu} />
+
+      <div className={`lg:flex ${showMenu ? 'block' : 'hidden'}`}>
+        <ul className="flex">
           <li>
             <Link
               to="about"
               smooth={true}
               duration={500}
-              className="py-5 text-1.3xl"
+              className="py-5 text-sm"
+              onClick={handleLinkClick}
             >
               About
             </Link>
@@ -41,7 +55,8 @@ const Navbar = ({ countFromDb }) => {
               to="portfolio"
               smooth={true}
               duration={500}
-              className="py-5 text-1.3xl"
+              className="py-5 text-sm"
+              onClick={handleLinkClick}
             >
               Portolio
             </Link>
@@ -51,7 +66,8 @@ const Navbar = ({ countFromDb }) => {
               to="/books"
               smooth={true}
               duration={500}
-              className="py-5 text-1.3xl"
+              className="py-5 text-sm"
+              onClick={handleLinkClick}
             >
               Books
             </Link>
@@ -61,7 +77,8 @@ const Navbar = ({ countFromDb }) => {
               to="contact"
               smooth={true}
               duration={500}
-              className="py-5 text-1.3xl"
+              className="py-5 text-sm"
+              onClick={handleLinkClick}
             >
               Contact
             </Link>
@@ -70,7 +87,8 @@ const Navbar = ({ countFromDb }) => {
       </div>
 
       <div className="flex items-center">
-        <FaEye className="mr-2" size={15}/> <span className='text-xs'>{countFromDb}</span>
+        <FaEye className="mr-2" size={15} />{' '}
+        <span className="text-xs">{countFromDb}</span>
       </div>
 
       {/*Social icons */}
