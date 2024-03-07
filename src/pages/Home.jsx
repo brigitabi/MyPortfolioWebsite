@@ -7,14 +7,12 @@ const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-white">
       <div className="max-w-[1000px] mx-auto px-10 flex flex-col justify-center h-full">
-        <p className="text-black mt-8">Hi there, my name is</p>
-        <h1 className="text-6xl sa:text-4xl font-bold text-[black] inline border-blue-800 w-1/2 py-4">
-          Brigita Bizjak
+      
+        <h1 className="text-4xl sa:text-4xl font-bold text-[black] inline border-blue-800 w-1/2 py-8">
+        Hello there! I'm Brigita, a self-taught developer...
         </h1>
-        <h2 className="text-2xl sa:text-4xl font-thin text-black">
-          I'm a passionate aspiring frontend developer with a strong foundation
-          in{' '}
-          <span className="underline">JavaScript, CSS, HTML, and React.</span>
+        <h2 className="text-xl sa:text-4xl font-thin text-black">
+         ...fueled by curiosity and a passion for learning. Join me as I navigate the ever-changing world of technology, always eager to tackle new challenges and create innovative solutions.
         </h2>
         <p className="text-[black] py-3 max-w-[800px]">
           <div className="">
