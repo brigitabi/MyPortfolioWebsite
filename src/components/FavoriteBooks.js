@@ -35,6 +35,26 @@ const myFavoriteBooks = [
         imageURL: "Mythical.jpg",
         amazonLink: "https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959"
       },
+      {
+        title: "Decisive: How to Make Better Decisions",
+        description: "Utilizing examples ranging from the collapse of Kodak to the triumphant journey of a cancer survivor, they provide a captivating exploration of cognitive processes while delivering essential insights for enhancing decision-making skills. Recognized as the recipient in the Practical Manager category of the 2014 CMI Management Book of the Year awards.",
+        imageURL: "decisive.jpg",
+        amazonLink: "https://www.amazon.nl/Decisive-How-Make-Better-Decisions/dp/1847940862/"
+      },
+      {
+        title: "Fundamentals of Software Architecture: An Engineering Approach.",
+        description: "Fundamentals of Software Architecture book presents a comprehensive guide to software architecture patterns. It offers insights into the foundational principles and methodologies essential for designing robust software systems.",
+        imageURL: "architecture.jpg",
+        amazonLink: "https://www.amazon.nl/Fundamentals-Software-Architecture-Comprehensive-Characteristics/dp/1492043451"
+      }, 
+      {
+        title: "The Elements of Computing Systems, second edition: Building a Modern Computer from First Principles",
+        description: "This textbook leads learners through twelve chapters and projects to construct a computer system from scratch, covering hardware, architecture, operating systems, programming languages, and more. Known as Nand to Tetris, this hands-on journey culminates in a general-purpose computer capable of running various programs, offering a comprehensive understanding of computer science fundamentals.",
+        imageURL: "computing.jpg",
+        amazonLink: "https://www.amazon.nl/Elements-Computing-Systems-second-Principles/dp/0262539802"
+      },
+  
+  
   
   ];
 

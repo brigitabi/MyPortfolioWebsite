@@ -34,7 +34,7 @@ const Navbar = ({ countFromDb }) => {
   }, [countFromDb, tracked]);
 
   return (
-    <div className="fixed w-full h-[70px] flex justify-between items-center px-4 bg-[#0a1527] text-white right-0">
+    <div className="fixed w-full h-[70px] flex lg:justify-center justify-between items-center px-4 bg-[#0a1527] text-white right-0">
       <IoMdMenu className="lg:hidden" size={30} onClick={toggleMenu} />
 
       <div className={`lg:flex ${showMenu ? 'block' : 'hidden'}`}>

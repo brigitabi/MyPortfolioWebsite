@@ -10,31 +10,39 @@ import hireadmire2 from '../assets/projects/hireadmire2.png';
 import Planning from '../assets/projects/planning.png';
 import Hireadmire from '../assets/projects/hireadmire.png';
 import Wisdomwonder from '../assets/projects/wisdomwonder.png';
+import Logoawm from '../assets/projects/logoawm.png';
 
 export const data = [
   {
     id: 1,
+    name: 'Agree With Me',
+    image: Logoawm,
+    github: '',
+    live: 'https://awmfrontend.vercel.app/',
+  },
+  {
+    id: 2,
     name: 'Hire & Admire',
     image: hireadmire2,
     github: '',
     live: 'https://hire-admire-prototype.vercel.app',
-  },,
+  },
   {
-    id: 2,
+    id: 3,
     name: 'Trello Clone with Chat GPT',
     image: Planning,
     github: 'https://github.com/brigitabi/trelloClone',
     live: 'https://trello-clone-piax.vercel.app',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Netflix Clone',
     image: Netflix,
     github: 'https://github.com/brigitabi/NetflixClone',
     live: 'https://netflix-clone-bribi.web.app/',
   },
   {
-    id: 4,
+    id: 5,
     name: 'Wisdom Wonder',
     image: Wisdomwonder,
     github: 'https://github.com/brigitabi/wisdom-wonder',
@@ -42,7 +50,7 @@ export const data = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: 'Hire & Admire',
     image: Hireadmire,
     github: 'https://github.com/brigitabi/H-A',
@@ -50,14 +58,14 @@ export const data = [
   },
 
   {
-    id: 6,
+    id: 7,
     name: 'CoinNest',
     image: Crypto,
     github: 'https://github.com/brigitabi/cryptoExchange',
     live: 'https://cryptoexchange-2e20a.web.app/',
   },
   {
-    id: 7,
+    id: 8,
     name: 'Beautiful Image Slider',
     image: Nature,
     github: 'https://github.com/brigitabi/slider',
@@ -65,14 +73,14 @@ export const data = [
   },
 
   {
-    id: 8,
+    id: 9,
     name: 'Expense Tracker',
     image: Costs,
     github: 'https://github.com/brigitabi/expenseTrack',
     live: 'https://expense-track-ecru.vercel.app/',
   },
   {
-    id: 9,
+    id: 10,
     name: 'We Eat',
     image: Ramen,
     github: 'https://github.com/brigitabi/weEat',
@@ -80,7 +88,7 @@ export const data = [
   },
 
   {
-    id: 10,
+    id: 11,
     name: 'Notes',
     image: Goals,
     github: 'https://github.com/brigitabi/toDoGoals',
