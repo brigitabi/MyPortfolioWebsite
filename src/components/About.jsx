@@ -15,18 +15,15 @@ const About = () => {
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
             <p>
-              Hello, nice to meet you! Happy to see
-              you visiting my website.👋
+              Hello, nice to meet you!
             </p>
           </div>
           <div>
             <p>
-              Deep in JavaScript, React, I hone, <br></br>
-              Crafting software, skills I
-              own. <br />
-              Enhancing experiences far and wide, <br />
-              To bring your visions to <br />
-              life, with pride.
+              I am tech professional with experiences in programming, tech support and data. 
+            </p>
+            <p className='py-4'>
+            Reading is one of the ways I constantly grow and expand. I set aside time to dive into different topics, learning new things and gaining fresh perspectives.
             </p>
           </div>
         </div>

@@ -53,8 +53,15 @@ const myFavoriteBooks = [
         imageURL: "computing.jpg",
         amazonLink: "https://www.amazon.nl/Elements-Computing-Systems-second-Principles/dp/0262539802"
       },
-  
-  
+      {
+        title: "Learning Microsoft Azure: Cloud Computing and Development Fundamentals",
+        description: "Learning Microsoft Azure: Cloud Computing and Development Fundamentals offers a beginner-friendly introduction to cloud computing with a focus on deploying and managing applications on the Azure platform. It covers key topics like virtual machines, storage, and Azure development tools.",
+        imageURL: "azure.jpg",
+        amazonLink: "https://www.amazon.nl/dp/1098113322?ref_=cm_sw_r_cp_ud_dp_BQC6FTVEGHDQGCHQGRW4&skipTwisterOG=1&newOGT=1"
+      },
+      {
+
+      }
   
   ];
 
