@@ -59,9 +59,6 @@ const myFavoriteBooks = [
         imageURL: "azure.jpg",
         amazonLink: "https://www.amazon.nl/dp/1098113322?ref_=cm_sw_r_cp_ud_dp_BQC6FTVEGHDQGCHQGRW4&skipTwisterOG=1&newOGT=1"
       },
-      {
-
-      }
   
   ];
 
